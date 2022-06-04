@@ -6,5 +6,5 @@ Not yet finished though.
 There are several steps before launching the script. Namely, we need the smart contract address, its shard, the minting function name. <br>
 To explain the steps better, I'll take the example of an arbitrary NFT mint : airkeys from Symbiosis
 
-## Get the smart contract address
+## 1) Get the smart contract address
 
