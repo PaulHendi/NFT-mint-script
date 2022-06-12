@@ -22,6 +22,24 @@ Now that we have the smart contract address, we also know on which shard it was 
 
 Once you have the wallets you need to derive the pem file, the classical way of doing it is by using [erdpy](https://docs.elrond.com/sdk-and-tools/erdpy/deriving-the-wallet-pem-file/), but you can also check [Buildo Begins](https://github.com/ElrondDevGuild/buildo-begins) for an alternative way with TS. The pem file is required in order to make txs signing faster, however you should delete the files, and move your NFTs to your main wallet after the operation.
 
+In our example the shard of the smart contract is 0 : 
+
+<img width="1115" alt="image" src="https://user-images.githubusercontent.com/16515787/173248005-44387481-b30d-4d3c-9ddb-0830ed1eda72.png">
+
+
 ## 3) Minting/buying function name
+
+In order to find the smart contract's minting/buying function name you can convert the smart contract's bytecode to text using for example [this converter](http://www.unit-conversion.info/texttools/hexadecimal/).
+
+The bytecode can be found in the code tab : 
+
+<img width="1115" alt="image" src="https://user-images.githubusercontent.com/16515787/173248081-8031d148-e8d4-45e5-9d88-bcdad589eeb9.png">
+
+Copy-pasting the code in the converter, we have can find a list of function names in the output : 
+
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/16515787/173248120-35c8f25a-fcdc-452d-ac03-0f346869c151.png">
+
+There are several functions, the one that is interesting for us should have "mint" or "buy" in the name. In our example the function name is "buy", and for the presale it is "buyPresale".
+
 
 
