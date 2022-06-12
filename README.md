@@ -55,4 +55,4 @@ We now have :
 
 Now you can execute the python script with the following command : 
 
-```python3 mint.py --sc_address THE_SMART_CONTRAT_ADDRESS --function THE_FUNCTION_NAME --price THE_PRICE_FOR_1_NFT --quantity THE_QUANTITY_OF_NFT_YOU_WANT_PER_WALLET --pem THE_FOLDER_OF_ALL_YOUR_PEM_FILES`
+```python3 mint.py --sc_address THE_SMART_CONTRAT_ADDRESS --function THE_FUNCTION_NAME --price THE_PRICE_FOR_1_NFT --quantity THE_QUANTITY_OF_NFT_YOU_WANT_PER_WALLET --pem THE_FOLDER_OF_ALL_YOUR_PEM_FILES```
