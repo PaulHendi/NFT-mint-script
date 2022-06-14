@@ -3,7 +3,7 @@ This repo explain one way of minting NFTs on Elrond with a python script. <br>
 
 This was useful by the time collections were sold out fast, now this script is mainly a tool for curious people :)
 
-Beware, the script wasn't not fully tested yet.
+Beware, the script hasn't been not fully tested yet.
 
 # Steps
 There are several steps before launching the script. Namely, we need the smart contract address, its shard, the "minting" function name. <br>
